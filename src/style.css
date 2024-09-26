@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+.container .number {
+  font-size: 200px;
+}
+.btns-container {
+  display: flex;
+  width: 40rem;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+.increment {
+  padding: 10px 20px;
+  border-radius: 100%;
+  font-size: 15rem;
+  background: #141517;
+  cursor: pointer;
+  color: #fff;
+}
+.decrement {
+    padding: 10px 20px;
+    border-radius: 100%;
+    font-size: 15rem;
+    background: #141517;
+    cursor: pointer;
+    color: #fff;
+}
