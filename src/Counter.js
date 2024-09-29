@@ -8,6 +8,7 @@ const Counter = () => {
   return (
     <>
     <div className='container'>
+    <h3>Development by Nasim Qureshi</h3>
       <h1 className='number'>{count}</h1>
     </div>
 
